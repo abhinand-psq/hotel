@@ -1,0 +1,351 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+::after
+::before{
+    margin: 0;
+    padding: 0;
+
+}
+a:hover{
+    color: red !important;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+
+}
+.navigation-wrap{
+
+box-shadow: 0 0.125rem 1.75rem 0 rgba(0, 0, 0, 0.09);
+transition: all .15s ease-in-out 0s;
+}
+.navbar-toggler:active{
+
+    outline: unset;
+    border: unset;
+}
+.nav-item{
+    font-weight:400 ;
+    letter-spacing: 2px;
+   
+    
+}
+.nav-item:active{
+    font-weight: 1000;
+}
+.btn:active{
+    background-color: white !important;
+    color: brown !important;
+    
+}
+.navbar-toggler-icon{
+    width: 2000px;
+}
+.nav-link{
+    text-transform:  uppercase;
+}
+button{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2{
+    color: brown;
+    font-weight: 700 !important;
+}
+.pp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section1{
+    background-image: url(26224516.jpg);
+    background-size: cover;
+    padding: 12em 0 2em;
+    padding-bottom: 12em;
+    background-position: 230px 100px ;
+    
+}
+
+
+.section1 h2{
+    color:brown;
+    font-size: 50px;
+
+    
+}
+@media (max-width : 1px){
+    .navbar-brand img{
+        height: 4.8125rem;
+    }
+    button{
+        padding: 110rem;
+    }
+
+}
+@media(max-width : 767px){
+    h2{
+    font-size: 66rem;
+    line-height: 3rem;
+    }
+    button{
+        padding: 110rem;
+    }
+}
+.text1{
+    font-weight: 500;
+    word-spacing: 12px;
+}
+.section22{
+    background-color: brown;
+}
+.section22 h2{
+    color: aliceblue !important;
+}
+.section3 .card,
+.section3 .card img
+{
+    border-radius: 0.625rem;
+}
+.section3{
+    background:white ;
+}
+.list{
+    
+    line-height: 35px;
+}
+.list ul{
+   
+  
+    font-size: 22px;
+}
+@media (max-width : 767px){
+.section5{
+    height: auto;
+
+}
+        
+
+.section10 .btn{
+    width: 100%;
+    margin-top: 1rem;
+}
+.section10{
+    width: 100%;
+
+}
+.form{
+    width: 75%;
+    margin: 0 auto;
+}
+.section10 .form-control{
+    height: 7.4333rem;
+}
+}
+.list1 p{
+    font-size: larger;
+}
+
+
+.list ul li{
+    content: '\f00c';
+    font-family:"font aswome 5 free";
+    list-style:square ;
+    }
+    .section5{
+        background: url('https://i.pinimg.com/originals/8f/a9/f2/8fa9f236abea637935de62e1d0dc777f.jpg');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+      height: 282px;
+      
+    }
+   .section6 .card{
+       background-color: transparent;
+       border-radius: 0.9657rem;
+   }
+   .section6 .card img{
+       border-radius: 00.9657rem;
+       object-fit:cover;
+   }
+   .section6 .card h5{
+       padding-top: 2rem;
+   }
+   .section6 .card del{
+       color: gray;
+   }
+   .section6 .card span{
+       color: red;
+       border-bottom:solid gray 0.00444rem ;
+   }
+   
+   .section7{
+       background-color: brown;
+       padding-bottom: 7rem;
+       padding-top: 4rem;
+   }
+   .section7 .carousel-item {
+       margin-top: 3rem;
+       padding: 10rem ;
+       background-color: aliceblue;
+       border-radius: 0.999rem;
+       text-align: center;
+   }
+  .carousel-caption h5,p{
+color: black;
+
+  }
+  .section7 .carousel-item .carousel-caption img{
+max-width: 5rem;
+border-radius: 50%;
+  }
+  .carousel-caption h5{
+      padding-top: 2rem;
+
+  }
+  .section7 .carousel-item .carousel-caption p{
+      padding: 0 5rem;
+  }
+ .section7 .carousel-indicators button{
+     width: 15px;
+     height: 15px;
+     outline: none;
+     border-radius: 50%;
+     border:none;
+     margin-right: 1rem;
+     
+   
+ }
+ .section7 .carousel-indicators button.active{
+     background-color:red;
+ }
+ .section7 .carousel-indicators{
+    margin-bottom: -2.845rem;
+ }
+ @media(max-width:330px){
+    .section7 .carousel-item{
+        padding:11rem 3.12rem;
+    }
+    .section7 .carousel-item .carousel-caption p{
+        padding: 0rem;
+    }
+ }
+ @media(max-width:215px){
+    .section7 .carousel-item{
+        padding:15rem 3.12rem;
+    }
+ }
+ @media(max-width:780px){
+    .section7 .carousel-item .carousel-caption p{
+        padding: 0rem;
+    }
+ }
+ .section8 h4{
+     line-height: 40px;
+     color: brown;
+     font-weight: bolder;
+     
+ }
+ .section8 h4 span{
+     color: red;
+ }
+ @media(max-width:325px){
+    .section8 h4{
+        line-height: 25px;
+    }
+    .section8 h2{
+        margin-left: 2rem;
+ }
+}
+ .section8 h2{
+     margin-right: 3rem;
+ }
+ .section9{
+     background: url('pexels-leslie-torres-12087878.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     padding: 4rem;
+     width: 100%;
+     background-position: center;
+
+ }
+ .section10{
+width: 100%;
+
+ }
+ .form{
+     width: 55%;
+     margin: 0 auto;
+ }
+ .section10 .form-control{
+height: 2.4333rem;
+padding: 0 1.25rem;
+font-size: 1rem;
+font-weight: 800;
+width: 100%;
+
+background: transparent;
+border: solid brown 2px;
+color: black;
+ }
+ .section10 .form-control:hover,
+ .section10 .form-control:focus{
+border:solid 4px black;
+ }
+ .footer{
+     background: brown;
+     padding: 3rem;
+
+ }
+ .footer a{
+     text-decoration: none;
+     padding: 0  1.444rem;
+     color:white;
+     font-weight: 500;
+     font-size: 1.133rem;
+     
+ }
+ .footer i{
+     padding:1rem 1rem;
+ }
+ 
+ 
+ .footer .footer2{
+     color: white;
+     padding-top:2rem ;
+ }
+ @media(max-width:545px){
+    .footer a{
+        padding:1rem 0.4rem;
+    }
+ }
+ @media(max-width:388px){
+    .footer a{
+        padding:0 0rem;
+    }
+    .footer{
+        background: brown;
+        padding:0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+   
+    }
+}
+@media(max-width:250px){
+    .footer{
+        padding: 0;
+        padding-top: 1rem;
+    }
+    .footer i{
+        padding:1rem 0rem 0rem;
+    }
+}
+@media(max-width:350px){
+    .footer i{
+        padding:1rem 0.4rem 0rem;
+    }
+}
